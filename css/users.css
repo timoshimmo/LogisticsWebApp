@@ -1,0 +1,100 @@
+.columnOne {
+	width: 48%;
+	float: left;
+	margin-right: 10px;
+}
+
+.columnTwo {
+	width: 48%;
+	float: left;
+	margin-left: 10px;
+}
+
+.btn-add {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 5px 10px; /* Some padding */
+    font-size: 14px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+/* Darker background on mouse-over */
+.btn-add:hover {
+    background-color: RoyalBlue;
+}
+
+.viewUserContainer {
+	width: 100%;
+	height: 200px;
+	display: block;
+}
+
+.user-view-icon-image {
+  margin-top: 20px;
+}
+
+.viewUserTitles h6 {
+    float: left;
+    font-family: 'MyWebFont', Helvetica, sans-serif;
+    font-size: 1.15em;
+    font-weight: 100;
+    margin-bottom: 5px;
+    font-weight: 700;
+
+}
+
+.viewUserTitles span.editLink a:link, .viewUserTitles span.editLink a:visited {
+    color: #5dbfe6;
+    font-family: 'MyWebFont',Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.viewUserTitles span {
+    float: right;
+    color: #e32c28;
+    font-family: 'MyWebFont', Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.viewUserTitles hr {
+    height: 1px;
+    background: #d8d8d8;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.viewUserTitles {
+	height: 45px;
+	padding-top: 30px;
+
+}
+
+.form-title {
+	width: 30%;
+	font-family: 'MyWebFont', Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #7f7f7f;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+
+.userValue {
+	display: inline-block;
+    width: 45%;
+    color: #424242;
+    font-family: 'MyWebFont', Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-bottom: 15px;
+}

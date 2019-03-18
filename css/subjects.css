@@ -1,0 +1,127 @@
+.subjectsContainer {
+	float: left;
+	width: 40%;
+}
+
+.topicsContainer {
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	width: 55%;
+}
+
+.subjectsTopicsContainer {
+	width: 100%;
+	height: 120px;
+}
+
+.subjectsDetails {
+	width: 100%;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}
+
+#img-display{
+    width: 100%;
+    margin: 5px auto 5px;
+}
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+}
+
+.input-group-btn: hover {
+	background-color: #e9ecef;
+}
+
+.columnSubjectOne {
+	width: 60%;
+	float: left;
+	margin-right: 10px;
+}
+
+.columnSubjectTwo {
+	width: 35%;
+	float: left;
+	margin-left: 10px;
+}
+
+.timeContainer {
+	width: 100%;
+}
+
+/*
+ 
+.fromTime {
+	float: left;
+	width: 45%;
+	margin-right: 10px;
+}
+
+.toTime {
+	float: left;
+	width: 45%;
+}  
+
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-calendar:before {
+    content: "\e109";
+}
+
+.glyphicon-time:before {
+    content: "\e023";
+}
+
+.contentInput {
+    margin-bottom: 30px;
+}
